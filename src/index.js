@@ -11,6 +11,7 @@ function Books() {
       <Book />
       <Book />
       <Book />
+      <Book />
     </section>
   );
 }
@@ -27,8 +28,8 @@ const Book = () => {
 const CoverImage = () => (
   <img
     width="200"
-    src="https://images-eu.ssl-images-amazon.com/images/I/814L%2Bvq01mL._AC_UL200_SR200,200_.jpg"
-    alt="IKIGAI"
+    src="https://www.amazon.in/images/I/51useSyby-L._SX323_BO1,204,203,200_.jpg"
+    alt="The ORIGIN"
   />
 );
 
@@ -37,7 +38,7 @@ const authorStyle = {
   letterSpacing: "2px",
   color: "green",
 };
-const Title = () => <h1 style={{ fontSize: "2rem", color: "red" }}>IKIGAI</h1>;
-const Author = () => <p style={authorStyle}> by Pratyush Garg </p>;
+const Title = () => <h1 style={{ fontSize: "2rem", color: "red" }}>ORIGIN</h1>;
+const Author = () => <p style={authorStyle}> by Dan Brown </p>;
 
 ReactDOM.render(<Books />, document.getElementById("root"));
